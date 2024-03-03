@@ -53,6 +53,7 @@ import { RouterLink } from "vue-router";
   &__wrapper {
     width: 60vw;
     margin: 0 auto;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
 

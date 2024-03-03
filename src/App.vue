@@ -19,6 +19,8 @@ import HeaderComponent from "./components/Widgets/HeaderComponent.vue";
 
 html {
   font-size: 16px;
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
 }
 
 .wrapper {

@@ -62,6 +62,7 @@ onBeforeMount(() => {
 
 .wrapper {
   width: 60vw;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
 
