@@ -1,0 +1,19 @@
+@mixin responsive($size) {
+  @if $size == 'xsm' {
+    @media (max-width: 390px) {
+      @content;
+    }
+  } @else if $size == 'sm' {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if $size == 'lr' {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  } @else if $size == 'xlr' {
+    @media (max-width: 1440px) {
+      @content;
+    }
+  }
+}
